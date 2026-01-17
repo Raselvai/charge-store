@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.charge_store_wrapper {
+	padding: 80px 0;
+}
+
+.charge_store_wrapper .charge_store_wrap {
+    background: linear-gradient(278deg, #757DFF 23.88%, #4936F5 94.06%);
+    padding: 100px 80px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.charge_store_wrapper .charge_store_wrap .shape1 {
+    left: 7%;
+    bottom: 16%;
+}
+
+.charge_store_wrapper .charge_store_wrap .shape2 {
+    left: 13%;
+    top: 37%;
+}
+
+.charge_store_wrapper .charge_store_wrap .shape3 {
+    right: 5%;
+    top: 20%;
+}
+
+.charge_store_wrapper .charge_store_wrap .shape4 {
+    right: 14%;
+    top: 61%;
+}
+
+.charge_store_wrapper .charge_store_wrap h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.charge_store_wrapper .charge_store_wrap p {
+    color: #ffffff;
+    margin: 10px 0 20px 0;
+}
+
+.charge_store_wrapper .charge_store_wrap a {
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 0 20px;
+    border-radius: 30px;
+    color: #757DFF;
+    margin: 20px 5px 0 5px;
+    transition: 0.4s all ease-in-out;
+}
+
+.charge_store_wrapper .charge_store_wrap a:hover {
+	 background: #4936F5 !important;
+	 text-decoration: none !important;
+	 color: #ffffff !important;
+	 border: 1px solid #4936F5 !important;
+}
+
+.charge_store_wrapper .charge_store_wrap .talk_btn {
+	 border: 1px solid #ffffff;
+	 color: #ffffff;
+	 background: transparent !important;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) { 
+
+}
+
+
+@media (max-width: 991px) {
+	.charge_store_wrapper .charge_store_wrap {
+	    padding: 100px 40px;
+	}
+
+	.charge_store_wrapper .charge_store_wrap h2 {
+	    max-width: 425px;
+	    margin: 0 auto;
+	}
+
+	
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+		
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+}
